@@ -24,7 +24,7 @@ default: &default
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
 development:
   <<: *default
-  database: Recipe-App_development
+  database: Hello-rails-react_development
   user: database
   password: database
   # The specified database role being used to connect to postgres.
@@ -53,7 +53,7 @@ development:
 # Do not set this db to the same as development or production.
 test:
   <<: *default
-  database: Recipe-App_test
+  database: Hello-rails-react_test
 # As with config/credentials.yml, you never want to store sensitive information,
 # like your database password, in your source code. If your source code is
 # ever seen by anyone, they now have access to your database.
@@ -76,6 +76,6 @@ test:
 #
 production:
   <<: *default
-  database: Recipe-App_production
-  username: Recipe-App
-  password: <%= ENV["Recipe-App_DATABASE_PASSWORD"] %>
+  database: Hello-rails-react_production
+  username: Hello-rails-react
+  password: <%= ENV["Hello-rails-react_DATABASE_PASSWORD"] %>

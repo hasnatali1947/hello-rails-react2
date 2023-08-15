@@ -91,16 +91,12 @@ to get random greeting from the API use the following link:
 
 ```
 
-
 ## 👥 Authors <a name="authors"></a>
 
 👤 **Hasnat Ali**
 
-- GitHub: [@huzaifakhan0308](https://github.com/huzaifakhan0308)
-- Twitter: [@huzaifakhan0308](https://twitter.com/home?lang=en)
-- LinkedIn: [huzaifa khan](https://www.linkedin.com/in/huzaifa-khan-938140256/)
-
-
+- GitHub: [Hasnat Ali](https://github.com/hasnatali1947)
+- LinkedIn: [ikenna_richard](https://www.linkedin.com/in/hasnattali/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
