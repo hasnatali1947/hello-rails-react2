@@ -3,8 +3,10 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '3.2.2'
 
-gem 'rack-cors', :require => 'rack/cors'
+# ... other gem declarations ...
+
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
+
 gem 'rails', '~> 7.0.5'
 
 # The original asset pipeline for Rails [https://github.com/rails/sprockets-rails]
