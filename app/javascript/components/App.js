@@ -1,7 +1,6 @@
 import React from "react";
-import Greeting from "./Greeting";
+import Greeting from "./greeting";
 const App = ()=>{
-
     return < Greeting />
 }
 

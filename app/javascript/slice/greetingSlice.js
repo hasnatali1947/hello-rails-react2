@@ -12,8 +12,8 @@ export const fetchgreeting = createAsyncThunk("greeting/fetchgreeting", async ()
     return await response.data;
 });
 
-const GreetingSlice = createSlice({
-    name: 'Greeting',
+const greetingSlice = createSlice({
+    name: 'greeting',
     initialState ,
     extraReducers: (builder) => {
         builder.addCase(fetchgreeting.pending, (state)=>{
@@ -32,4 +32,4 @@ const GreetingSlice = createSlice({
 
 
 
-export default GreetingSlice.reducer;
+export default greetingSlice.reducer;
