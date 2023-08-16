@@ -1,5 +1,3 @@
 class GreetingsController < ApplicationController
-  def index
-    @greeting = Greeting.order('RANDOM()').first
-  end
+  def index; end
 end
